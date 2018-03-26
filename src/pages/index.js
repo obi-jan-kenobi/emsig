@@ -1,7 +1,7 @@
-import React from 'react'
-import Link from 'gatsby-link'
+import React from "react";
+import Link from "gatsby-link";
 
-import Hero from '../components/Hero'
+import Hero from "../components/Hero";
 
 const IndexPage = () => (
   <div>
@@ -24,6 +24,6 @@ const IndexPage = () => (
       </section>
     </main>
   </div>
-)
+);
 
-export default IndexPage
+export default IndexPage;

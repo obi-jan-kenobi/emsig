@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 
 export default () => (
   <section className="hero is-info is-medium">
@@ -18,4 +18,4 @@ export default () => (
       </div>
     </div>
   </section>
-)
+);

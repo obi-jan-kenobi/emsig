@@ -1,28 +1,28 @@
-import React from 'react'
-import Link from 'gatsby-link'
-import Brand from './Brand'
-import Hamburger from './Hamburger'
-import Menu from './Menu'
+import React from "react";
+import Link from "gatsby-link";
+import Brand from "./Brand";
+import Hamburger from "./Hamburger";
+import Menu from "./Menu";
 
 const Navbar = ({ children }) => (
   <nav className="navbar is-fixed-top is-primary transition">{children}</nav>
-)
+);
 
 export default class Header extends React.Component {
   constructor(props) {
-    super(props)
+    super(props);
   }
 
   state = {
     active: false,
-  }
+  };
 
   handleClick = e => {
-    e.preventDefault()
+    e.preventDefault();
     this.setState(state => ({
       active: !state.active,
-    }))
-  }
+    }));
+  };
 
   render() {
     return (
@@ -32,6 +32,6 @@ export default class Header extends React.Component {
         </Brand>
         <Menu active={this.state.active} />
       </Navbar>
-    )
+    );
   }
 }

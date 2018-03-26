@@ -1,8 +1,8 @@
-import React from 'react'
-import Link from 'gatsby-link'
+import React from "react";
+import Link from "gatsby-link";
 
 export default ({ active }) => (
-  <div className={`navbar-menu${active ? ' is-active' : ''}`}>
+  <div className={`navbar-menu${active ? " is-active" : ""}`}>
     <div className="navbar-end">
       <Link to="/leistungen" className="navbar-item">
         Leistungen
@@ -15,4 +15,4 @@ export default ({ active }) => (
       </Link>
     </div>
   </div>
-)
+);

@@ -1,8 +1,8 @@
-import React from 'react'
+import React from "react";
 
 export default ({ active, onClick }) => (
   <div
-    className={`navbar-burger${active ? ' is-active' : ''}`}
+    className={`navbar-burger${active ? " is-active" : ""}`}
     data-target="navMenu"
     onClick={onClick}
   >
@@ -10,4 +10,4 @@ export default ({ active, onClick }) => (
     <span />
     <span />
   </div>
-)
+);

@@ -1,5 +1,5 @@
-import React from 'react'
-import Link from 'gatsby-link'
+import React from "react";
+import Link from "gatsby-link";
 
 export default props => (
   <div className="navbar-brand">
@@ -8,4 +8,4 @@ export default props => (
     </Link>
     {props.children}
   </div>
-)
+);
