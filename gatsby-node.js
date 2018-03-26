@@ -3,5 +3,16 @@
  *
  * See: https://www.gatsbyjs.org/docs/node-apis/
  */
+// Implement the Gatsby API “onCreatePage”. This is
+// called after every page is created.
+exports.onCreatePage = async ({ page, boundActionCreators }) => {
+  const { createPage } = boundActionCreators
 
- // You can delete this file if you're not using it
+  return new Promise((resolve, reject) => {
+    if (page.path === '/') {
+      page.layout = 'landing-page'
+      createPage(page)
+    }
+    resolve()
+  })
+}

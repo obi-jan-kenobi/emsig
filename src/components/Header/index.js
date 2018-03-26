@@ -1,11 +1,11 @@
 import React from 'react'
 import Link from 'gatsby-link'
-import Brand from '../Brand'
-import Hamburger from '../Hamburger'
-import Menu from '../Menu'
+import Brand from './Brand'
+import Hamburger from './Hamburger'
+import Menu from './Menu'
 
 const Navbar = ({ children }) => (
-  <nav className="navbar is-fixed-top is-info transition">{children}</nav>
+  <nav className="navbar is-fixed-top is-primary transition">{children}</nav>
 )
 
 export default class Header extends React.Component {
@@ -30,7 +30,7 @@ export default class Header extends React.Component {
         <Brand>
           <Hamburger active={this.state.active} onClick={this.handleClick} />
         </Brand>
-        <Menu />
+        <Menu active={this.state.active} />
       </Navbar>
     )
   }

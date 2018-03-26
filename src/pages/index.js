@@ -1,12 +1,28 @@
 import React from 'react'
 import Link from 'gatsby-link'
 
+import Hero from '../components/Hero'
+
 const IndexPage = () => (
   <div>
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <Link to="/page-2/">Go to page 2</Link>
+    <Hero />
+    <section className="container has-text-centered section">
+      <h1 className="title is-spaced">Ihr Spezialist für Gebäudereinigung</h1>
+      <p className="subtitle">
+        Wir bieten Reinigungen jeglicher Art und sonstige artverwandte
+        Dienstleistungen an. Dabei führen wir die Reinigungsarbeiten und
+        Dienstleistungen zuverlässig und in einer hohen Qualität durch. Wir
+        orientieren uns bei der Leistungsdurchführung strikt nach den Wünschen
+        der Kunden. Den Qualitätsstandard garantieren wir Ihnen durch geschultes
+        Stammpersonal, innovative Reinigungsverfahren mit modernen
+        Reinigungsmaschinen und umweltschonenden Reinigungsmitteln.
+      </p>
+    </section>
+    <main className="container">
+      <section className="section">
+        <h1 className="is-capitalized">Leistungen</h1>
+      </section>
+    </main>
   </div>
 )
 
