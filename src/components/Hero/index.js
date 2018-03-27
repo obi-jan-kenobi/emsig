@@ -1,7 +1,7 @@
 import React from "react";
 
 export default () => (
-  <section className="hero is-info is-medium">
+  <section className="hero is-primary is-medium">
     <div className="hero-body">
       <div className="container">
         <h1 className="title is-size-1 is-spaced">EMSIG</h1>
@@ -11,7 +11,7 @@ export default () => (
           Gebäudereinigung
         </p>
         <div className="call-to-action">
-          <a className="button is-primary is-raisable" role="button" href="#">
+          <a className="button is-info is-raisable" role="button" href="#">
             Kontaktieren Sie uns
           </a>
         </div>

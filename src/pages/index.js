@@ -19,8 +19,12 @@ const IndexPage = () => (
       </p>
     </section>
     <main className="container">
-      <section className="section">
-        <h1 className="is-capitalized">Leistungen</h1>
+      <section className="section has-text-centered">
+        <h1 className="title is-spaced is-capitalized">Leistungen</h1>
+        Unterhaltsreinigung Grundreinigung Glasreinigung Baureinigung
+        Fassadenreinigung Photovoltaikreinigung -- Akkustikdecken Fahrtreppen
+        Busse und Schiffe Parkettfußböden -- Hausmeister Gartenpflege
+        Winterdienst Entrümpelung
       </section>
     </main>
   </div>
