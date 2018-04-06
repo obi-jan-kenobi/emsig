@@ -1,0 +1,18 @@
+@import "../../node_modules/bulma/sass/utilities/initial-variables";
+@import "../../node_modules/bulma/sass/utilities/functions";
+
+$primary: #4b7bec;
+$success: #26de81;
+$info: #2bcbba;
+$warning: #fd9644;
+$danger: #fc5c65;
+
+.footer-column {
+  padding-top: 1rem;
+}
+
+.footer-column-item:not(:first-child) {
+  padding-top: 1rem;
+}
+
+@import "../../node_modules/bulma/bulma.sass";

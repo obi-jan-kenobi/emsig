@@ -21,7 +21,11 @@ module.exports = class HTML extends React.Component {
       );
     }
     return (
-      <html {...this.props.htmlAttributes} className="has-navbar-fixed-top">
+      <html
+        {...this.props.htmlAttributes}
+        className="has-navbar-fixed-top"
+        lang="de-DE"
+      >
         <head>
           <meta charSet="utf-8" />
           <meta httpEquiv="x-ua-compatible" content="ie=edge" />

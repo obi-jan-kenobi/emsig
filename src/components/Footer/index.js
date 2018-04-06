@@ -8,32 +8,34 @@ export default () => (
         <div className="column is-half">
           <h2 className="title is-size-6">Kontakt</h2>
           <div className="footer-column">
-            <div className="field">
-              <div className="control">
-                <input className="input" type="text" placeholder="Name" />
+            <form>
+              <div className="field">
+                <div className="control">
+                  <input className="input" type="text" placeholder="Name" />
+                </div>
               </div>
-            </div>
 
-            <div className="field">
-              <div className="control">
-                <input
-                  className="input"
-                  type="email"
-                  placeholder="E-Mail-Adresse"
-                />
+              <div className="field">
+                <div className="control">
+                  <input
+                    className="input"
+                    type="email"
+                    placeholder="E-Mail-Adresse"
+                  />
+                </div>
               </div>
-            </div>
 
-            <div className="field">
-              <div className="control">
-                <textarea className="textarea" placeholder="Nachricht" />
+              <div className="field">
+                <div className="control">
+                  <textarea className="textarea" placeholder="Nachricht" />
+                </div>
               </div>
-            </div>
-            <div className="field">
-              <div className="control">
-                <button className="button is-link">Senden</button>
+              <div className="field">
+                <div className="control">
+                  <button className="button is-link">Senden</button>
+                </div>
               </div>
-            </div>
+            </form>
           </div>
         </div>
         <div className="column is-1" />
