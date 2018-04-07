@@ -16,12 +16,10 @@ class Kontakt extends React.Component {
             src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCnNjfA2gD0HajkYw3YcnfG-aJPpp85Dgs&q=Karpfenteich+41,+24837+Schleswig,+Deutschland"
           />
         </section>
+        <hr />
         <section className="section">
           <h1 className="title">Senden Sie uns eine E-Mail</h1>
-          <form
-            action="https://formspree.io/j.sziegaud@gmail.com"
-            method="POST"
-          >
+          <form action="https://formspree.io/info@emsig.sh" method="POST">
             <input type="hidden" name="_subject" value="Neue Anfrage!" />
             <input type="text" name="_gotcha" style={{ display: "none" }} />
             <div className="field">

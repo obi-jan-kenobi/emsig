@@ -8,31 +8,48 @@ export default () => (
         <div className="column is-half">
           <h2 className="title is-size-6">Kontakt</h2>
           <div className="footer-column">
-            <form>
+            <form action="https://formspree.io/info@emsig.sh" method="POST">
+              <input type="hidden" name="_subject" value="Neue Anfrage!" />
+              <input type="text" name="_gotcha" style={{ display: "none" }} />
               <div className="field">
+                <label className="label is-small">Name</label>
                 <div className="control">
-                  <input className="input" type="text" placeholder="Name" />
+                  <input
+                    className="input"
+                    type="text"
+                    name="name"
+                    placeholder="Name"
+                  />
                 </div>
               </div>
-
               <div className="field">
+                <label className="label is-small">E-Mail</label>
                 <div className="control">
                   <input
                     className="input"
                     type="email"
-                    placeholder="E-Mail-Adresse"
+                    name="_replyto"
+                    placeholder="E-Mail"
                   />
                 </div>
               </div>
-
               <div className="field">
+                <label className="label is-small">Nachricht</label>
                 <div className="control">
-                  <textarea className="textarea" placeholder="Nachricht" />
+                  <textarea
+                    className="textarea"
+                    name="message"
+                    placeholder="Textarea"
+                  />
                 </div>
               </div>
               <div className="field">
                 <div className="control">
-                  <button className="button is-link">Senden</button>
+                  <input
+                    type="submit"
+                    className="button is-link"
+                    value="Senden"
+                  />
                 </div>
               </div>
             </form>

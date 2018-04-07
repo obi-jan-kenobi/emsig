@@ -5,7 +5,7 @@ import Hamburger from "./Hamburger";
 import Menu from "./Menu";
 
 const Navbar = ({ children }) => (
-  <nav className="navbar is-fixed-top is-primary transition">{children}</nav>
+  <nav className="navbar is-fixed-top transition">{children}</nav>
 );
 
 export default class Header extends React.Component {
