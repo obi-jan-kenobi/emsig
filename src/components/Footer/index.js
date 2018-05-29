@@ -39,7 +39,7 @@ export default () => (
                   <textarea
                     className="textarea"
                     name="message"
-                    placeholder="Textarea"
+                    placeholder="Ihre Nachricht"
                   />
                 </div>
               </div>
