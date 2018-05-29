@@ -1,10 +1,10 @@
 import React from "react";
-import Link from "gatsby-link";
+import Link, { withPrefix } from "gatsby-link";
 
 export default props => (
   <div className="navbar-brand">
     <Link to="/" className="navbar-item is-white">
-      EMSIG
+      <strong>EMSIG</strong>
     </Link>
     {props.children}
   </div>

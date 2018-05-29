@@ -1,10 +1,21 @@
 import React from "react";
-
-const NotFoundPage = () => (
-  <div>
-    <h1>NOT FOUND</h1>
-    <p>You just hit a route that doesn&#39;t exist... the sadness.</p>
-  </div>
+import Reference from "../components/Reference";
+const Referenzen = () => (
+  <main>
+    <Reference
+      title="Studentenwerk Schleswig-Holstein, Kiel"
+      subtitle=""
+      leistungen={["Gebäudereinigung"]}
+    />
+    <Reference
+      title="Abfallwirtschaft Schleswig-Flensburg, Schleswig:"
+      leistungen={["Unterhaltsreinigung"]}
+    />
+    <Reference
+      title="Service-Betrieb des Kreises Schleswig-Flensburg, Schleswig:"
+      leistungen={["Unterhaltsreinigung"]}
+    />
+  </main>
 );
 
-export default NotFoundPage;
+export default Referenzen;
